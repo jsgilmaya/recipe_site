@@ -19,14 +19,7 @@ div.category{
     overflow: visible;
 }
 
-div.content{
-    background-color: white;
-    margin: 60px 10% 80px 10%;
-    padding: 0px 30px 30px 30px;
-    /*min-width: 350px;*/
-    box-shadow: 0px 0px 8px 8px rgba(0, 0, 0, 0.1);
-    overflow: visible;
-}
+
 
 h1{
     text-align: center;
@@ -51,6 +44,15 @@ p.category{
     font-weight: bold;
     font-size: 16px;
 }
+
+div.content{
+    background-color: white;
+    margin: 60px 10% 80px 10%;
+    padding: 0px 30px 30px 30px;
+    /*min-width: 350px;*/
+    box-shadow: 0px 0px 8px 8px rgba(0, 0, 0, 0.1);
+    overflow: visible;
+}  
 
 div.separator{
     height: 1px;
@@ -152,5 +154,14 @@ table.instructions tr{
    height: 40px; 
 }
 
+@media only screen and (min-width: 768px) {
+    /* For mobile phones: */
+      div.content{
+        margin: 60px 10% 80px 8px;
+        padding: 0px 30px 30px 30px;
+        min-width: 350px;
+    }
+    }
+  }
 
 /* Comments CSS*/
